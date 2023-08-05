@@ -67,11 +67,11 @@ header {
 
 /* Media query for Medium devices */
 @media screen and (max-width:1024px) {
+  
+header {
+    height: 100vh;
+}
     
-    header {
-        height: 68vh;
-    }
-
 }
 
 /* Media query for Small devices */
