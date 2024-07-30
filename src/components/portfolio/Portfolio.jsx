@@ -5,20 +5,36 @@ import  IMG2  from '../../assets/spacebook.png';
 import  IMG3  from '../../assets/grandma.png';
 import  IMG4  from '../../assets/Digital.png';
 import  IMG5  from '../../assets/javascript.png';
-import  IMG6  from '../../assets/todolist.png';
+import  IMG6  from '../../assets/TO-DO-LIST.png';
+import  IMG7  from '../../assets/news.png';
 
 // By using MAP()
 
 const data = [
-  {
+ {
     id: 1,
-    image: IMG1,
-    title: "Personal Portfolio Website by using ReactJS Technology Where I describe my work",
-    github: "https://github.com",
+    image: IMG7,
+    title: "Users can explore news related to finance, sports, crypto and technology,through API integration",
+    github: "https://github.com/SunilDharawat/Newsletter_Web_Application",
     demo: "https://dribble.com",
   },
   {
     id: 2,
+    image: IMG1,
+    title: "Personal Portfolio Website by using ReactJS Technology Where I describe my work",
+    github: "https://github.com/SunilDharawat/Portfolio-Website",
+    demo: "https://personal-portfolio-reactwebsite.netlify.app/",
+  },
+  {
+    id: 3,
+    image: IMG6,
+    title:
+      "A project management to-do list is a collection of tasks that outlines or team plans to complete during a project.",
+    github: "https://github.com/SunilDharawat/To-Do-list-Project",
+    demo: "https://to-do-list-webapplication-com.netlify.app/",
+  },
+  {
+    id: 4,
     image: IMG2,
     title:
       "It is a clone of Facebook website, where we built front-end by using react components",
@@ -26,7 +42,7 @@ const data = [
     demo: "https://spacebook-clone.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     image: IMG3,
     title:
       "It is a static webpage where you can select various types of flavors according to your test",
@@ -34,7 +50,7 @@ const data = [
     demo: "https://grandmabackery.netlify.app/",
   },
   {
-    id: 4,
+    id: 6,
     image: IMG4,
     title:
       "Project based on JavaScript Technology, This is a Digital watch that shows current time and date",
@@ -43,20 +59,12 @@ const data = [
     demo: "http://digitalwatch-time.netlify.app/",
   },
   {
-    id: 5,
+    id: 7,
     image: IMG5,
     title:
       "It is a Quotes Generator that generates quotes when we clicked on the NEW Quotes Button",
     github: "https://github.com/SunilDharawat/JavaScriptquotegenerator",
     demo: "https://quotes-generator-webpage.netlify.app/",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title:
-      "A project management to-do list is a collection of tasks that outlines or team plans to complete during a project.",
-    github: "https://github.com/SunilDharawat/To-Do-list-Project",
-    demo: "https://to-do-lists-task.netlify.app/",
   },
 ];
 
