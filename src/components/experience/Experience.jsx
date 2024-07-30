@@ -52,48 +52,6 @@ function Experience() {
              </article>
           </div>
         </div>
-        <div className="experience-backend">
-           <h3>Backend Development</h3>
-          <div className="experience-content">
-            <article className="experience-details">
-              <BsPatchCheckFill className="icons"  />
-              <div>   <h4>Java</h4>
-              <small className='text-light'>Intermediate</small>
-         </div>
-              </article>
-             <article className="experience-details">
-              <BsPatchCheckFill className="icons" />
-            <div> <h4>J2EE</h4>
-              <small className='text-light'>Intermediate</small>
-           </div> 
-            </article>
-             <article className="experience-details">
-              <BsPatchCheckFill className="icons" />
-            <div><h4>JDBC</h4>
-              <small className='text-light'>Intermediate</small>
-            </div>  
-            </article>
-             <article className="experience-details">
-              <BsPatchCheckFill className="icons" />
-            <div> <h4>SQL</h4>
-              <small className='text-light'>Intermediate</small>
-           </div> 
-            </article>
-             <article className="experience-details">
-              <BsPatchCheckFill className="icons" />
-            <div> <h4>Mysql</h4>
-              <small className='text-light'>Intermediate</small>
-          </div> 
-            </article>
-            <article className="experience-details">
-              <BsPatchCheckFill className="icons" />
-            <div>  <h4>Servlet</h4>
-              <small className='text-light'>Beginner</small>
-         </div>
-            </article>
-          </div>
-
-        </div>
       </div>
      </section>
   )
