@@ -4,7 +4,7 @@ import {FaGithub} from 'react-icons/fa'
 function HeaderIcons() {
   return (
     <div className="header-icons">
-      <a href="https://www.linkedin.com/in/sunildharawat/" target="_blank">
+      <a href="https://www.linkedin.com/in/sunil-dharawat-a6726831a/" target="_blank">
         <BsLinkedin />
       </a>
       <a href="https://github.com/SunilDharawat" target="_blank">
