@@ -42,8 +42,8 @@ const About = () => {
             <strong> Bhanpura</strong> (Mandsour), But currently living in
             Indore. Recently, I graduated from <strong>RGPV University</strong>{" "}
             with a degree in <strong>Computer Science Engineering</strong> from{" "}
-            <strong>PCST College</strong> Indore. and Now pursuing{" "}
-            <strong>JAVA FULLSTACK COURSE</strong> from Pentagon Space
+            <strong>PCST College</strong> Indore. and Completed my{" "}
+            <strong>WEB DEVELOPMENT COURSE</strong> from Pentagon Space
             Bengalore.
           </p>
 
