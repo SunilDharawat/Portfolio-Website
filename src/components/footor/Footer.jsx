@@ -20,9 +20,9 @@ function Footer() {
       </ul>
 
       <div className="footer-socials">
-        <a href="https://facebook.com"><FaFacebook/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://twitter.com"><IoLogoTwitter/></a>
+        <a href="https://facebook.com" rel="noreferrer" target="_blank" ><FaFacebook/></a>
+        <a href="https://instagram.com" rel="noreferrer" target="_blank"><FiInstagram/></a>
+        <a href="https://twitter.com" rel="noreferrer" target="_blank"><IoLogoTwitter/></a>
       </div>
 
       <div className="footer-copyright">
