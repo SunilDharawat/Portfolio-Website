@@ -1,27 +1,47 @@
-import React from 'react'
-import './portfolio.css';
-import  IMG1  from '../../assets/Portfolio.png';
-import  IMG2  from '../../assets/spacebook.png';
-import  IMG3  from '../../assets/grandma.png';
-import  IMG4  from '../../assets/Digital.png';
-import  IMG5  from '../../assets/javascript.png';
-import  IMG6  from '../../assets/TO-DO-LIST.png';
-import  IMG7  from '../../assets/news.png';
+import React from "react";
+import "./portfolio.css";
+import IMG1 from "../../assets/Portfolio.png";
+import IMG2 from "../../assets/spacebook.png";
+import IMG3 from "../../assets/grandma.png";
+import IMG4 from "../../assets/Digital.png";
+import IMG5 from "../../assets/javascript.png";
+import IMG6 from "../../assets/TO-DO-LIST.png";
+import IMG7 from "../../assets/news.png";
+import IMG8 from "../../assets/CRM.png";
+import IMG9 from "../../assets/REACT JS TECHNOLOGY.png";
 
 // By using MAP()
 
 const data = [
- {
+  {
+    id: 1,
+    image: IMG9,
+    title:
+      "Payroll Management System : A software solution that automates payroll processes, including salary calculation, attendance tracking, and tax compliance, ensuring accurate and timely payments.",
+    github: "#",
+    demo: "#",
+  },
+  {
+    id: 1,
+    image: IMG8,
+    title:
+      "Customer Relationship Management : A tool to manage customer interactions, improve relationships, and streamline workflows through features like contact management, lead tracking, and analytics.",
+    github: "#",
+    demo: "#",
+  },
+  {
     id: 1,
     image: IMG7,
-    title: "Users can explore news related to finance, sports, crypto and technology,through API integration",
+    title:
+      "News Application :  Users can explore news related to finance, sports, crypto and technology,through API integration",
     github: "https://github.com/SunilDharawat/Newsletter_Web_Application",
     demo: "https://dribble.com",
   },
   {
     id: 2,
     image: IMG1,
-    title: "Personal Portfolio Website by using ReactJS Technology Where I describe my work",
+    title:
+      "Personal Portfolio Website by using ReactJS Technology Where I describe my work",
     github: "https://github.com/SunilDharawat/Portfolio-Website",
     demo: "https://personal-portfolio-reactwebsite.netlify.app/",
   },
@@ -68,8 +88,6 @@ const data = [
   },
 ];
 
-
-
 function Portfolio() {
   return (
     <section id="portfolio">
@@ -83,16 +101,12 @@ function Portfolio() {
               <div className="portfolio-item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{ title }</h3>
+              <h3>{title}</h3>
               <div className="portfolio-item-cta">
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                >
+                <a href={demo} className="btn btn-primary" target="_blank">
                   Live Demo
                 </a>
               </div>
@@ -104,4 +118,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio
+export default Portfolio;
